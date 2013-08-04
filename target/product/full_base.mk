@@ -65,4 +65,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/locales_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_no_telephony.mk)
 
 # Get BlueZ
-66	$(call inherit-product, $(SRC_TARGET_DIR)/product/bluez.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/bluez.mk)
